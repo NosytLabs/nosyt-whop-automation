@@ -1,0 +1,71 @@
+{
+  "auto_generate": true,
+  "auto_upload": true,
+  "generation_interval_hours": 6,
+  "upload_interval_hours": 2,
+  "max_daily_products": 15,
+  "price_optimization": true,
+  "seo_optimization": true,
+  "webhook_notifications": true,
+  "niches": {
+    "high_priority": [
+      "social media marketing",
+      "personal finance",
+      "productivity",
+      "real estate",
+      "dropshipping",
+      "email marketing",
+      "cryptocurrency",
+      "affiliate marketing",
+      "wellness",
+      "time management"
+    ],
+    "medium_priority": [
+      "fitness",
+      "nutrition",
+      "business planning",
+      "freelancing",
+      "digital marketing",
+      "e-commerce",
+      "mindfulness",
+      "goal setting",
+      "habit building",
+      "stress management"
+    ]
+  },
+  "pricing": {
+    "ebook_min": 15,
+    "ebook_max": 150,
+    "template_min": 10,
+    "template_max": 75,
+    "planner_min": 12,
+    "planner_max": 85,
+    "course_min": 97,
+    "course_max": 497,
+    "bundle_min": 47,
+    "bundle_max": 297
+  },
+  "quality_settings": {
+    "min_word_count_ebook": 2000,
+    "max_word_count_ebook": 8000,
+    "min_chapters": 5,
+    "max_chapters": 15,
+    "include_bonus_content": true,
+    "plr_rights": true,
+    "mrr_rights": true
+  },
+  "upload_settings": {
+    "batch_size": 5,
+    "delay_between_uploads": 3,
+    "auto_generate_images": true,
+    "seo_optimize_titles": true,
+    "auto_tag_generation": true
+  },
+  "monitoring": {
+    "track_analytics": true,
+    "daily_reports": true,
+    "email_notifications": false,
+    "discord_webhooks": false,
+    "slack_notifications": false
+  }
+}
